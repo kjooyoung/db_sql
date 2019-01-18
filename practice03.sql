@@ -18,7 +18,7 @@ and b.to_date = '9999-01-01'
 and c.to_date = '9999-01-01'
 and d.to_date = '9999-01-01'
 and c.title = 'Engineer'
-group by e.dept_no;
+group by e.dept_name;
  
 -- 예제7: 현재 직책별로 급여의 총합을 구하되 Engineer직책은 제외하세요 
 -- 단, 총합이 2,000,000,000이상인 직책만 나타내며 급여총합에
